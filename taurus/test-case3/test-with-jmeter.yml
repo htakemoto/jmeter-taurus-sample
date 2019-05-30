@@ -4,3 +4,6 @@ execution:
 scenarios:
   simple:
     script: simple-http-request.jmx
+
+settings:
+  artifacts-dir: ./artifacts/%Y-%m-%d_%H-%M-%S.%f

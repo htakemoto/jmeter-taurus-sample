@@ -16,3 +16,6 @@ scenarios:
       body:
         fromPort: Paris
         toPort: Buenos Aires
+
+settings:
+  artifacts-dir: ./artifacts/%Y-%m-%d_%H-%M-%S.%f

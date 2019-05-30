@@ -8,3 +8,6 @@ scenarios:
   quick-test:
     requests:
     - http://blazedemo.com
+
+settings:
+  artifacts-dir: ./artifacts/%Y-%m-%d_%H-%M-%S.%f
