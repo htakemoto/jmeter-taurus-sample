@@ -1,9 +1,14 @@
 execution:
-- scenario: simple
+- concurrency: 20
+  ramp-up: 5s
+  hold-for: 30s
+  scenario: simple
 
 scenarios:
   simple:
     script: simple-http-request.jmx
+    variables:
+      SERVER_NAME: blazedemo.com
 
 settings:
   artifacts-dir: ./artifacts/%Y-%m-%d_%H-%M-%S.%f
